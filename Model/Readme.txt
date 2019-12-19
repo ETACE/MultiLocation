@@ -7,7 +7,7 @@ The model uses the Repast 3.1 libraries as a backbone, and Model.java is the top
 	
 	2. Executing the model in the GUI mode. If the model is launched from the ModelGUI class, then one can run a single run using a GUI. The GUI can thereby be used to change the parameters, and to start, pause and stop the simulation. Furthermore, during the simulations, selected variables are graphically displayed in form of time series, network graphics and other useful graphs to illustrate the spatial interaction of firms.
 	
-	3. Executing the model in batch mode. If the model is run from BatchParallelModel.java, the model is executed for a specified number of iterations and writes the output (all integer, double and boolean variables of different classes) into a SQLite database. If the java executable is launched from the command line, it accepts the number of iterations, the parameters, for which the defaul values are not used, as as well as the path to which the database should be written inputs from the command line.
+	3. Executing the model in batch mode. If the model is run from BatchParallelModel.java, the model is executed for a specified number of iterations and writes the output (all integer, double and boolean variables of different classes) into a SQLite database. If the java executable is launched from the command line, it accepts the number of iterations, the parameters, for which the defaul values are not used, as as well as the path to which the database should be written, as inputs from the command line.
 	
 One should note that the implementation features several java files with different roles. First, there are the three model files:
 	-Model.java
